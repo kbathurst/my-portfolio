@@ -1,0 +1,302 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.title, h2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+}
+
+.title {
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 3.6em;
+    text-align: center;
+}
+
+.title a {
+    text-decoration: none;
+    color:rgb(36, 36, 36)
+}
+
+.nav-container {
+    width: 100%;
+    text-align: center;
+}
+
+.main-nav {
+    border-top: 1px solid #fff;
+    list-style: none;
+    margin: 0 auto;
+    padding: 8px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(36, 36, 36);
+}
+
+.title, .main-nav, a:hover {
+    color:#3e8adb;
+}
+
+.main-nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+button, input[type=submit] {
+    background-color: #3e8adb;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-family: 'Raleway', sans-serif;
+    font-size: .9em;
+}
+
+#about {
+    margin-top: 50px;
+    height: 370px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)),
+    url('../img/me_devils_lake.jpg');
+    background-repeat: none;
+    background-position: top;
+    background-size: cover;
+}
+
+#skills {
+    padding-bottom: 85px;
+}
+
+#design-samples {
+    background-color: #DCE6F1;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#design-title {
+    text-align: center;
+}
+
+#design-button {
+    margin: 0 auto;
+    display: block;
+}
+
+#slide {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#caption {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#slides img {
+    display: none;
+}
+
+#contact {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#form-label {
+    text-align: center;
+}
+
+.text-wrapper {
+    width: 35%;
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ABOUT PAGE STYLES */
+
+.page-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #DCE6F1;
+    font-size: 24px;
+    text-align: center;
+}
+
+.page-section {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+#about-description, #about-photo {
+    width: 40%;
+}
+
+/* WORK PAGE STYLES */
+
+#work-samples {
+    margin-bottom: 50px;
+}
+
+.item a {
+    color: #3e8adb;
+}
+
+.item a:hover {
+    color: #da9bff;
+}
+
+.item h3 {
+    text-align: center;
+}
+
+/* CONTACT PAGE STYLES */
+
+#contact-description {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: -30px;
+
+}
+
+fieldset {
+    border: solid 1px rgb(160, 160, 160);
+    border-radius: 10px;
+    background-color:#DCE6F1;
+    padding: 20px 20px;
+}
+
+legend {
+    display: none;
+}
+
+/* LIGHTBOX STYLES */
+
+.wrapper {
+    height: 200px;
+}
+
+#display_panel {
+    width: 300px;
+    /* overflow: hidden; */
+    float: left;
+    height: auto;
+}
+
+
+#image_list {
+    position: relative;
+    left: 0px;
+    width: 900px;
+    list-style: none;
+}
+
+#image_list li {
+    float: left;
+    width: 100px;
+}
+
+#image_list li img {
+    width: 95px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    justify-content: flex-start;
+}
+
+.item {
+    width: 30%;
+    margin: 15px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], [type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  button:hover, input[type=submit]:hover {
+    background-color: #da9bff;
+  }
+
+ 
+footer {
+    background-color: #447fbe;
+    padding: 5px 15px 5px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+    .title {
+        font-size: 30px;
+    }
+
+    #about {
+        background-position: right;
+    }
+
+    .text-wrapper {
+        width: 60%;
+    }
+
+    .flex-container, .flex-container2 {
+        display: block;
+    }
+
+    .item {
+        width: 80%;
+        margin-bottom: 65px;
+    }
+
+    #about-description, #about-photo {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #about-description {
+        margin-bottom: 40px;
+    }
+
+    .main-nav li {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #contact {
+        width: 80%;
+    }
+
+}

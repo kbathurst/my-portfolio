@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="Kate Bathurst Portfolio Page">
+    <meta name="keywords" content="Kate Bathurst Web Development Portfolio">
+	<title>Kate Bathurst Web Development Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/slideshow.css">
+	<link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Raleway&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="title"><a href="index.html">Kate Bathurst</a></h1>
+        <nav>
+            <div class="nav-container">
+                <ul class="main-nav">
+                    <li><a href="work.html">Work Samples</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="text-wrapper">
+        <h2>About Me</h2>
+        <p>I'm a 28 year old aspiring web developer with an interest in design and user experience. I have used HTML, CSS, PHP, and JavaScript as well as the Adobe Suite to redesign websites for local businesses including a campground, a landscaping company, and a skate shop.</p>
+        </div>
+    </section>
+    <section id="skills" class="flex-container">
+        <div class="text-wrapper">
+            <h2>Skills/Experience</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>WordPress</li>
+                <li>Adobe Suite</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+        <div class="text-wrapper">
+            <button onclick="window.location.href='https://docs.google.com/document/d/1OXG8qclZmhGvAZYxKhN3_wmmIm5AqXzfuCeHxsTgMg4/edit?usp=sharing';" target="_blank">View Resume</button>
+        </div>
+    </section>
+
+    <section id="design-samples">
+        <h2 id="design-title">Design Samples</h2>
+        <ul id="image-list">
+            <li><a href="img/bigfoot-skate.png" title="Bigfoot Skate"></a></li>
+            <li><a href="img/hapka-landscape.png" title="Hapka Landscape"></a></li>
+            <li><a href="img/happy-acres.png" title="Happy Acres"></a></li>
+            <li><a href="img/photography-site.png" title="Photography Portfolio"></a></li>
+            <li><a href="img/red-horizon.png" title="Red Horizon"></a></li>
+            <li><a href="img/travel-agency.png" title="Kate's Travel Agency"></a></li>
+        </ul>   
+        <p><img id="main-image" src="img/bigfoot-skate.png" alt="Bigfoot Skate"></p>
+        <h4 id="caption">Bigfoot Skate</h4> 
+        <div>
+            <button id="design-button" onclick="window.location.href='work.html';">View More</button>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2 id="form-label">Contact Me</h2>
+        <form action="sendmail.php" method="post" name="contact_form" id="contact_form">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name"><br>
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" id="last_name"><br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email"><br>
+                <label for="subject">Subject:</label>
+			    <input type="text" name="subject" id="subject"><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <legend>Submit</legend>
+                <label>&nbsp;</label>
+                <input type="submit" id="submit" value="Send Email">
+            </fieldset>
+        </form>
+    </section>
+
+<footer>
+    <p>Kate Bathurst &copy; 2022</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="slideshow.js"></script>
+<script src="form.js"></script>
+</body>
+</html>
