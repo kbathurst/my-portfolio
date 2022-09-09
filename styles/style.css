@@ -6,8 +6,8 @@ img {
     width: 100%;
 }
 
-.title, h2 {
-    font-family: 'Fjalla One', sans-serif;
+.title {
+    font-family: 'Londrina Solid', sans-serif;
     text-transform: uppercase;
 }
 
@@ -21,6 +21,10 @@ img {
 .title a {
     text-decoration: none;
     color:rgb(36, 36, 36)
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .nav-container {
@@ -67,9 +71,9 @@ button, input[type=submit] {
 
 #about {
     margin-top: 50px;
-    height: 370px;
+    height: 500px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1)),
-    url('../img/me_devils_lake.jpg');
+    url('../img/me_devils_lake2.jpg');
     background-repeat: none;
     background-position: top;
     background-size: cover;
@@ -128,11 +132,36 @@ button, input[type=submit] {
     padding-left: 100px;
 }
 
+.text-wrapper h2 {
+    margin-bottom: -7px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    line-height: 42px;
+    margin-top: 6px;
+    margin-left: -40px;
+    margin-bottom: 50px;
+}
+
+.skills-list li {
+    margin-right: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    text-transform:uppercase;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.text-wrapper p {
+    margin-bottom: 50px;
 }
 
 /* ABOUT PAGE STYLES */
@@ -175,6 +204,10 @@ button, input[type=submit] {
 
 /* CONTACT PAGE STYLES */
 
+.contact-container {
+    height: 400px;
+}
+
 #contact-description {
     text-align: center;
     font-size: 1.2em;
@@ -182,16 +215,7 @@ button, input[type=submit] {
 
 }
 
-fieldset {
-    border: solid 1px rgb(160, 160, 160);
-    border-radius: 10px;
-    background-color:#DCE6F1;
-    padding: 20px 20px;
-}
 
-legend {
-    display: none;
-}
 
 /* LIGHTBOX STYLES */
 
@@ -231,8 +255,19 @@ legend {
 }
 
 .item {
-    width: 30%;
+    width: 45%;
     margin: 15px;
+    margin-bottom: 25px;
+}
+
+.work-title {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+
+.work-title a {
+    text-decoration: none;
 }
 
 /* Style inputs with type="text", select elements and textareas */
