@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Raleway&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Raleway&family=Oswald:wght@200&family=Roboto:wght@100;300;400;500;700;900&family=Koulen&family=Londrina+Solid:wght@300;400;900&family=Rubik+Iso&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -29,21 +29,18 @@
     </header>
     <section id="about">
         <div class="text-wrapper">
-        <h2>About Me</h2>
-        <p>I'm a 28 year old aspiring web developer with an interest in design and user experience. I have used HTML, CSS, PHP, and JavaScript as well as the Adobe Suite to redesign websites for local businesses including a campground, a landscaping company, and a skate shop.</p>
-        </div>
-    </section>
-    <section id="skills" class="flex-container">
-        <div class="text-wrapper">
-            <h2>Skills/Experience</h2>
-            <ul>
+        <h2>Intro</h2>
+            <p>I'm a 28 year old aspiring web developer with an interest in design and user experience.</p>
+        <h2>Skills</h2>
+            <ul class="skills-list">
                 <li>HTML/CSS</li>
-                <li>WordPress</li>
-                <li>Adobe Suite</li>
+                <li>JavaScript/jQuery</li>
                 <li>PHP</li>
+                <li>Adobe Suite</li>
+                <li>Figma</li>
+                <li>GitHub</li>
+                <li>WordPress</li>
             </ul>
-        </div>
-        <div class="text-wrapper">
             <button onclick="window.location.href='https://docs.google.com/document/d/1OXG8qclZmhGvAZYxKhN3_wmmIm5AqXzfuCeHxsTgMg4/edit?usp=sharing';" target="_blank">View Resume</button>
         </div>
     </section>
@@ -66,27 +63,6 @@
     </section>
 
 
-    <section id="contact">
-        <h2 id="form-label">Contact Me</h2>
-        <form action="sendmail.php" method="post" name="contact_form" id="contact_form">
-            <fieldset>
-                <legend>Contact Information</legend>
-                <label for="first_name">First Name:</label>
-                <input type="text" name="first_name" id="first_name"><br>
-                <label for="last_name">Last Name:</label>
-                <input type="text" name="last_name" id="last_name"><br>
-                <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email"><br>
-                <label for="subject">Subject:</label>
-			    <input type="text" name="subject" id="subject"><br>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4"></textarea>
-                <legend>Submit</legend>
-                <label>&nbsp;</label>
-                <input type="submit" id="submit" value="Send Email">
-            </fieldset>
-        </form>
-    </section>
 
 <footer>
     <p>Kate Bathurst &copy; 2022</p>
