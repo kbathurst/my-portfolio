@@ -89,6 +89,10 @@ button, input[type=submit] {
     padding-bottom: 35px;
 }
 
+#design-samples-title {
+    font-size: 2em;
+}
+
 #design-title {
     text-align: center;
 }
@@ -202,6 +206,8 @@ button, input[type=submit] {
     text-align: center;
 }
 
+
+
 /* CONTACT PAGE STYLES */
 
 .contact-container {
@@ -258,6 +264,8 @@ button, input[type=submit] {
     width: 45%;
     margin: 15px;
     margin-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .work-title {
