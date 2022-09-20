@@ -12,43 +12,76 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Raleway&family=Oswald:wght@200&family=Roboto:wght@100;300;400;500;700;900&family=Koulen&family=Londrina+Solid:wght@300;400;900&family=Rubik+Iso&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Unica+One&family=Raleway&family=Oswald:wght@200&family=Nanum+Gothic+Coding:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&family=Koulen&family=Londrina+Solid:wght@300;400;900&family=Rubik+Iso&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <div id="header-container">
         <h1 class="title"><a href="index.html">Kate Bathurst</a></h1>
         <nav>
             <div class="nav-container">
                 <ul class="main-nav">
                     <li><a href="#design-samples">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#about-header">About</a></li>
+                    <li><a href="https://kbathurst.github.io/my-portfolio/Bathurst_Resume11.pdf">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
+    </div>
     </header>
     <section id="about">
         <div class="text-wrapper">
-        <h2>Intro</h2>
-            <p>I'm a 28 year old aspiring web developer with an interest in design and user experience.</p>
-        <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>HTML/CSS</li>
-                <li>JavaScript/jQuery</li>
-                <li>Figma</li>
-                <li>Adobe XD</li>
-                <li>Photoshop</li>
-                <li>Illustrator</li>
-                <li>Premiere Pro</li>
-                <li>AfterEffects</li>
-                <li>WordPress</li>
-            </ul>
-            <button onclick="window.location.href='https://kbathurst.github.io/my-portfolio/Bathurst_Resume11.pdf';" target="_blank">View Resume</button>
+        <h2 class="greeting">Hi there!</h2>
+            <p>I'm Kate, a 28 year old web developer with an interest in all things design and UX related.</p>
         </div>
     </section>
+    <section class="resume">
+        <div class="text-wrapper" id="resume">
+            <h2 class="greeting"><a href="https://kbathurst.github.io/my-portfolio/Bathurst_Resume11.pdf" target="_blank">Click here to see my resume</a></h2>
+                <p>Or keep scrolling to take a look at my skills, work samples, and to learn more about me.</p>
+            </div>
+    </section>
 
-    <section id="design-samples">
-        <h2 class="page-header" id="design-samples-title">Work Samples</h2>
+    <section id="skills" class="page-main-section">
+        <section class="section-header">
+            <h2>Skills</h2>
+        </section>
+    <div class="container">
+    <div id="design-list">
+        <h3>Design</h3>
+        <ul class="skills-list">
+            <li>Interactive Design</li>
+            <li>Interface Design</li>
+            <li>Digital Media Design</li>
+            <li>Prototyping</li>
+            <li>Wireframing</li>
+            <li>Usability Testing</li>
+            <li>User Experience Research</li>
+        </ul>
+    </div>
+    <div id="software-list">
+        <h3>Software</h3>
+        <ul class="skills-list">
+            <li>HTML + CSS</li>
+            <li>JavaScript</li>
+            <li>Figma</li>
+            <li>Balsamiq</li>
+            <li>Adobe XD</li>
+            <li>PhotoShop</li>
+            <li>Illustrator</li>
+            <li>Premiere Pro</li>
+            <li>AferEffects</li>
+            <li>WordPress</li>
+        </ul>
+    </div>
+    </div>
+    </section>
+
+    <section class="page-main-section work">
+        <section class="section-header">
+            <h2>Work Samples</h2>
+        </section>
         <div class="flex-container2" id="work-samples">
             <div class="item">
                 <img src="img/nextstop.png">
@@ -63,7 +96,7 @@
             <div class="item">
                 <img src="img/hapka.png" alt="">
                 <h3 class="work-title"><a href="https://kbathurst.github.io/hapka-landscape" target="_blank">Hapka Landscape Design</a></h3>
-                    <p>Redesign for a <a href="https://hapkacontracting.com/" target="_blank">local landscaping company</a> built using HTML, CSS and JavaScript.</p>
+                    <p>Redesign for a local landscaping company built using HTML, CSS and JavaScript.</p>
             </div>
             <div class="item">
                 <img src="img/bigfoot.png" alt="">
@@ -77,6 +110,32 @@
             </div>
         </div>
     </section>
+    <div class="page-main-section about-container">
+        <section class="section-header" id="about-header">
+            <h2>About Me</h2>
+        </section>
+    <div class="flex-container page-section">
+        <section id="about-description" class="flexbox">
+            <p>I'm a 28 year old Wisconsin native with a passion for design and all things creative. I started teaching myself to code in 2018 as a hobby, and when the pandemic hit in 2020, I decided to get a second degree. Throughout my education at MATC, I have developed and refined my skills in HTML, CSS, JavaScript, and the Adobe Suite.</p>
+            <p>I also graduated in 2016 from the University of Wisconsin-Madison with a bachelor's degree in Environmental Studies and History. I then worked and traveled around Europe, moved to Madrid where I got my teaching certification, and worked in Hanoi, Vietnam for a year as an English instructor. During the transitory periods between these life phases, I have supported myself by working in the service industry. All these experiences have shaped me into a well-rounded individual with valuable people skills.</p>
+            <p>In the world of web development, my main interests include web design, graphic design, and user experience. I enjoy the whole process of designing a website that both functions well and looks spectacular.</p>
+            <p>In my spare time, I enjoy long distance running, photography, reading, traveling, and being outdoors.</p>
+        </section>
+        <section id="about-photo" class="flexbox">
+            <img src="img/me_renfaire.jpg">
+        </section>
+    </div>
+    </div>
+    <div class="page-main-section contact-container" id="contact">
+        <section class="section-header">
+            <h2>Get In Touch</h2>
+        </section>
+        <div>
+            <section id="contact-description">
+                <p>kbathurst94@gmail.com | <a href="http://linkedin.com/in/katherine-bathurst">LinkedIn</a></p>
+            </section>
+        </div>
+        </div>
 
 
 
@@ -84,7 +143,6 @@
     <p>Kate Bathurst &copy; 2022</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="slideshow.js"></script>
 <script src="form.js"></script>
 </body>
 </html>
