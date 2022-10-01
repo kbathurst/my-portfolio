@@ -419,6 +419,28 @@ h2 {
     text-align: center;
     font-size: 2.7em;
 }
+
+/* HAPPY ACRES STYLES */
+
+.happy-acres-users h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.happy-acres-users h3 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin-top: 60px;
+}
+.user-interview {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.mfw {
+    background-color: rgba(195, 212, 255, 0.1);
+}
  
 footer {
     background-color: #447fbe;
