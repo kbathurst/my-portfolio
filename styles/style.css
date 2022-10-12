@@ -224,6 +224,7 @@ h2 {
 .contact-container {
     min-height: 420px;
     background-color: rgba(203, 205, 255, 0.5);
+    width: 100%;
 }
 
 #contact-description {
@@ -447,12 +448,14 @@ footer {
     padding: 5px 15px 5px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    font-size: .8em;
 }
 
 @media only screen and (max-width: 700px) {
     .title {
-        font-size: 30px;
+        font-size: 50px;
     }
+
 
     #about {
         background-position: right;
@@ -471,6 +474,16 @@ footer {
         margin-bottom: 65px;
     }
 
+    .container {
+        display: block;
+    }
+
+    #design-list, #software-list {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
     #about-description, #about-photo {
         width: 70%;
         margin: 0 auto;
@@ -482,12 +495,15 @@ footer {
 
     .main-nav li {
         display: block;
-        margin-bottom: 10px;
-        font-size: 14px;
+        margin-top: 35px;
+        font-size: 2em;
+        
     }
 
-    #contact {
-        width: 80%;
+    #resume a {
+        line-height: .5em;
     }
+
+ 
 
 }
